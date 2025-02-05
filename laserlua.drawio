@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="26.0.11">
   <diagram name="第 1 页" id="jXhxipRqwU4gSd97U1G0">
-    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2049" dy="1054" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -241,6 +241,264 @@
         <mxCell id="ConnEGeYTkuhtYBw6JE4-35" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" edge="1" parent="1" source="ConnEGeYTkuhtYBw6JE4-7" target="ConnEGeYTkuhtYBw6JE4-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-37" value="收集二维CAD数据" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="215" y="1140" width="185" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-38" value="收集一键截断的图形" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1244" width="204" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-39" value="收集其它图形" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="344" y="1244" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-40" value="处理图层信息" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="229" y="1348" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-41" value="调用Writer写入文件" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="92" y="1452" width="201" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-42" value="处理参数信息" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="343" y="1452" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-43" value="调用Writer写入文件" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="321" y="1556" width="201" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-44" value="生成一键截断的三维数据" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="303" y="1660" width="236" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-45" value="调用Writer写入文件" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="321" y="1764" width="201" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-46" value="生成其它刀路的三维数据" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="303" y="1868" width="236" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-47" value="调用Writer写入文件" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="321" y="1972" width="201" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-48" value="Writer写入全局参数信息" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="305" y="2076" width="233" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-49" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.17;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ConnEGeYTkuhtYBw6JE4-37" target="ConnEGeYTkuhtYBw6JE4-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="192" y="1219" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-50" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.82;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ConnEGeYTkuhtYBw6JE4-37" target="ConnEGeYTkuhtYBw6JE4-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="422" y="1219" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-51" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.12;entryY=0;rounded=0;" edge="1" parent="1" source="ConnEGeYTkuhtYBw6JE4-38" target="ConnEGeYTkuhtYBw6JE4-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="192" y="1323" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-52" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.88;entryY=0;rounded=0;" edge="1" parent="1" source="ConnEGeYTkuhtYBw6JE4-39" target="ConnEGeYTkuhtYBw6JE4-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="422" y="1323" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-53" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.12;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ConnEGeYTkuhtYBw6JE4-40" target="ConnEGeYTkuhtYBw6JE4-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="193" y="1427" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-54" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.88;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ConnEGeYTkuhtYBw6JE4-40" target="ConnEGeYTkuhtYBw6JE4-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="421" y="1427" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-55" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ConnEGeYTkuhtYBw6JE4-42" target="ConnEGeYTkuhtYBw6JE4-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-56" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ConnEGeYTkuhtYBw6JE4-43" target="ConnEGeYTkuhtYBw6JE4-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-57" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ConnEGeYTkuhtYBw6JE4-44" target="ConnEGeYTkuhtYBw6JE4-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-58" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ConnEGeYTkuhtYBw6JE4-45" target="ConnEGeYTkuhtYBw6JE4-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-59" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ConnEGeYTkuhtYBw6JE4-46" target="ConnEGeYTkuhtYBw6JE4-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-60" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ConnEGeYTkuhtYBw6JE4-47" target="ConnEGeYTkuhtYBw6JE4-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-61" value="生成三维数据并写入" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="50" y="2982" width="640" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-62" value="处理图层和参数" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="70" y="2596" width="584" height="208" as="geometry" />
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-63" value="收集数据" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="86" y="2338" width="559" height="208" as="geometry" />
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-64" value="收集二维CAD数据" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="278" y="2363" width="185" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-65" value="收集一键截断图形" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="121" y="2467" width="188" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-66" value="收集其它图形" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="447" y="2467" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-67" value="处理一键截断图层信息" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="105" y="2621" width="220" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-68" value="处理其它图层信息" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="431" y="2621" width="188" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-69" value="处理一键截断参数信息" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="105" y="2725" width="220" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-70" value="处理其它参数信息" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="431" y="2725" width="188" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-71" value="调用Writer写入一键截断数据" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="85" y="2854" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-72" value="调用Writer写入其它数据" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="409" y="2866" width="233" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-73" value="生成一键截断三维数据" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="105" y="3007" width="220" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-74" value="生成其它刀路三维数据" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="415" y="3007" width="220" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-75" value="调用Writer写入一键截断三维数据" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="85" y="3111" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-76" value="调用Writer写入其它三维刀路数据" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="395" y="3111" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-77" value="生成全局参数信息" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="276" y="3239" width="188" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-78" value="Writer写入全局参数信息" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="254" y="3343" width="233" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-79" value="完成转换" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="308" y="3472" width="124" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-80" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.06;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ConnEGeYTkuhtYBw6JE4-64" target="ConnEGeYTkuhtYBw6JE4-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="215" y="2442" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-81" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.93;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ConnEGeYTkuhtYBw6JE4-64" target="ConnEGeYTkuhtYBw6JE4-66">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="525" y="2442" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-82" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ConnEGeYTkuhtYBw6JE4-65" target="ConnEGeYTkuhtYBw6JE4-67">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-83" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ConnEGeYTkuhtYBw6JE4-66" target="ConnEGeYTkuhtYBw6JE4-68">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-84" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ConnEGeYTkuhtYBw6JE4-67" target="ConnEGeYTkuhtYBw6JE4-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-85" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ConnEGeYTkuhtYBw6JE4-68" target="ConnEGeYTkuhtYBw6JE4-70">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-86" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ConnEGeYTkuhtYBw6JE4-69" target="ConnEGeYTkuhtYBw6JE4-71">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-87" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ConnEGeYTkuhtYBw6JE4-70" target="ConnEGeYTkuhtYBw6JE4-72">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-88" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ConnEGeYTkuhtYBw6JE4-71" target="ConnEGeYTkuhtYBw6JE4-73">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-89" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ConnEGeYTkuhtYBw6JE4-72" target="ConnEGeYTkuhtYBw6JE4-74">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-90" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ConnEGeYTkuhtYBw6JE4-73" target="ConnEGeYTkuhtYBw6JE4-75">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-91" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ConnEGeYTkuhtYBw6JE4-74" target="ConnEGeYTkuhtYBw6JE4-76">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-92" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.07;entryY=0;rounded=0;" edge="1" parent="1" source="ConnEGeYTkuhtYBw6JE4-75" target="ConnEGeYTkuhtYBw6JE4-77">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="215" y="3214" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-93" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.93;entryY=0;rounded=0;" edge="1" parent="1" source="ConnEGeYTkuhtYBw6JE4-76" target="ConnEGeYTkuhtYBw6JE4-77">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="525" y="3214" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-94" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ConnEGeYTkuhtYBw6JE4-77" target="ConnEGeYTkuhtYBw6JE4-78">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ConnEGeYTkuhtYBw6JE4-95" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ConnEGeYTkuhtYBw6JE4-78" target="ConnEGeYTkuhtYBw6JE4-79">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="" plantUmlData="{&quot;data&quot;:&quot;@startuml\nactor User\n\n\n\nUser -&gt; MainProcess : 开始转换过程\nMainProcess -&gt; TubeConvertor : 收集二维CAD数据\nTubeConvertor -&gt; MainProcess : 生成一键截断图形\nTubeConvertor -&gt; MainProcess : 生成其它图形\nMainProcess -&gt; TubeConvertor : 处理图层信息\nTubeConvertor -&gt; Writer : 调用Writer写入图层数据\nMainProcess -&gt; TubeConvertor : 处理参数信息\nTubeConvertor -&gt; Writer : 调用Writer写入参数数据\nMainProcess -&gt; TubeConvertor : 生成三维数据\nTubeConvertor -&gt; Writer : 写入一键截断三维数据\nTubeConvertor -&gt; Writer : 写入其它刀路三维数据\nMainProcess -&gt; Writer : 写入全局参数信息\nWriter -&gt; MainProcess : 结束写入\nMainProcess -&gt; User : 完成转换\n@enduml\n&quot;,&quot;format&quot;:&quot;svg&quot;}" id="ConnEGeYTkuhtYBw6JE4-97">
+          <mxCell style="shape=image;noLabel=1;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXMtYXNjaWkiIHN0YW5kYWxvbmU9Im5vIj8+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBjb250ZW50U3R5bGVUeXBlPSJ0ZXh0L2NzcyIgaGVpZ2h0PSI1NzBweCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSIgc3R5bGU9IndpZHRoOjQ1NHB4O2hlaWdodDo1NzBweDtiYWNrZ3JvdW5kOiNGRkZGRkY7IiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA0NTQgNTcwIiB3aWR0aD0iNDU0cHgiIHpvb21BbmRQYW49Im1hZ25pZnkiPjxkZWZzLz48Zz48bGluZSBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjAuNTtzdHJva2UtZGFzaGFycmF5OjUuMCw1LjA7IiB4MT0iMjIiIHgyPSIyMiIgeTE9Ijc5Ljk4NDQiIHkyPSI0OTAuNzgxMyIvPjxsaW5lIHN0eWxlPSJzdHJva2U6IzE4MTgxODtzdHJva2Utd2lkdGg6MC41O3N0cm9rZS1kYXNoYXJyYXk6NS4wLDUuMDsiIHgxPSIxMjMuNSIgeDI9IjEyMy41IiB5MT0iNzkuOTg0NCIgeTI9IjQ5MC43ODEzIi8+PGxpbmUgc3R5bGU9InN0cm9rZTojMTgxODE4O3N0cm9rZS13aWR0aDowLjU7c3Ryb2tlLWRhc2hhcnJheTo1LjAsNS4wOyIgeDE9IjI1MS41IiB4Mj0iMjUxLjUiIHkxPSI3OS45ODQ0IiB5Mj0iNDkwLjc4MTMiLz48bGluZSBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjAuNTtzdHJva2UtZGFzaGFycmF5OjUuMCw1LjA7IiB4MT0iNDIwIiB4Mj0iNDIwIiB5MT0iNzkuOTg0NCIgeTI9IjQ5MC43ODEzIi8+PHRleHQgZmlsbD0iIzAwMDAwMCIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGxlbmd0aEFkanVzdD0ic3BhY2luZyIgdGV4dExlbmd0aD0iMjgiIHg9IjUiIHk9Ijc4LjIzNDQiPlVzZXI8L3RleHQ+PGVsbGlwc2UgY3g9IjIyIiBjeT0iMTMuNSIgZmlsbD0iI0UyRTJGMCIgcng9IjgiIHJ5PSI4IiBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjAuNTsiLz48cGF0aCBkPSJNMjIsMjEuNSBMMjIsNDguNSBNOSwyOS41IEwzNSwyOS41IE0yMiw0OC41IEw5LDYzLjUgTTIyLDQ4LjUgTDM1LDYzLjUgIiBmaWxsPSJub25lIiBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjAuNTsiLz48dGV4dCBmaWxsPSIjMDAwMDAwIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNCIgbGVuZ3RoQWRqdXN0PSJzcGFjaW5nIiB0ZXh0TGVuZ3RoPSIyOCIgeD0iNSIgeT0iNTAzLjAxNTYiPlVzZXI8L3RleHQ+PGVsbGlwc2UgY3g9IjIyIiBjeT0iNTEzLjI2NTYiIGZpbGw9IiNFMkUyRjAiIHJ4PSI4IiByeT0iOCIgc3R5bGU9InN0cm9rZTojMTgxODE4O3N0cm9rZS13aWR0aDowLjU7Ii8+PHBhdGggZD0iTTIyLDUyMS4yNjU2IEwyMiw1NDguMjY1NiBNOSw1MjkuMjY1NiBMMzUsNTI5LjI2NTYgTTIyLDU0OC4yNjU2IEw5LDU2My4yNjU2IE0yMiw1NDguMjY1NiBMMzUsNTYzLjI2NTYgIiBmaWxsPSJub25lIiBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjAuNTsiLz48cmVjdCBmaWxsPSIjRTJFMkYwIiBoZWlnaHQ9IjI4Ljk4NDQiIHJ4PSIyLjUiIHJ5PSIyLjUiIHN0eWxlPSJzdHJva2U6IzE4MTgxODtzdHJva2Utd2lkdGg6MC41OyIgd2lkdGg9IjkxIiB4PSI3OC41IiB5PSI1MCIvPjx0ZXh0IGZpbGw9IiMwMDAwMDAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjE0IiBsZW5ndGhBZGp1c3Q9InNwYWNpbmciIHRleHRMZW5ndGg9Ijc3IiB4PSI4NS41IiB5PSI3MC4yMzQ0Ij5NYWluUHJvY2VzczwvdGV4dD48cmVjdCBmaWxsPSIjRTJFMkYwIiBoZWlnaHQ9IjI4Ljk4NDQiIHJ4PSIyLjUiIHJ5PSIyLjUiIHN0eWxlPSJzdHJva2U6IzE4MTgxODtzdHJva2Utd2lkdGg6MC41OyIgd2lkdGg9IjkxIiB4PSI3OC41IiB5PSI0ODkuNzgxMyIvPjx0ZXh0IGZpbGw9IiMwMDAwMDAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjE0IiBsZW5ndGhBZGp1c3Q9InNwYWNpbmciIHRleHRMZW5ndGg9Ijc3IiB4PSI4NS41IiB5PSI1MTAuMDE1NiI+TWFpblByb2Nlc3M8L3RleHQ+PHJlY3QgZmlsbD0iI0UyRTJGMCIgaGVpZ2h0PSIyOC45ODQ0IiByeD0iMi41IiByeT0iMi41IiBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjAuNTsiIHdpZHRoPSIxMDUiIHg9IjE5OS41IiB5PSI1MCIvPjx0ZXh0IGZpbGw9IiMwMDAwMDAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjE0IiBsZW5ndGhBZGp1c3Q9InNwYWNpbmciIHRleHRMZW5ndGg9IjkxIiB4PSIyMDYuNSIgeT0iNzAuMjM0NCI+VHViZUNvbnZlcnRvcjwvdGV4dD48cmVjdCBmaWxsPSIjRTJFMkYwIiBoZWlnaHQ9IjI4Ljk4NDQiIHJ4PSIyLjUiIHJ5PSIyLjUiIHN0eWxlPSJzdHJva2U6IzE4MTgxODtzdHJva2Utd2lkdGg6MC41OyIgd2lkdGg9IjEwNSIgeD0iMTk5LjUiIHk9IjQ4OS43ODEzIi8+PHRleHQgZmlsbD0iIzAwMDAwMCIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGxlbmd0aEFkanVzdD0ic3BhY2luZyIgdGV4dExlbmd0aD0iOTEiIHg9IjIwNi41IiB5PSI1MTAuMDE1NiI+VHViZUNvbnZlcnRvcjwvdGV4dD48cmVjdCBmaWxsPSIjRTJFMkYwIiBoZWlnaHQ9IjI4Ljk4NDQiIHJ4PSIyLjUiIHJ5PSIyLjUiIHN0eWxlPSJzdHJva2U6IzE4MTgxODtzdHJva2Utd2lkdGg6MC41OyIgd2lkdGg9IjU2IiB4PSIzOTIiIHk9IjUwIi8+PHRleHQgZmlsbD0iIzAwMDAwMCIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGxlbmd0aEFkanVzdD0ic3BhY2luZyIgdGV4dExlbmd0aD0iNDIiIHg9IjM5OSIgeT0iNzAuMjM0NCI+V3JpdGVyPC90ZXh0PjxyZWN0IGZpbGw9IiNFMkUyRjAiIGhlaWdodD0iMjguOTg0NCIgcng9IjIuNSIgcnk9IjIuNSIgc3R5bGU9InN0cm9rZTojMTgxODE4O3N0cm9rZS13aWR0aDowLjU7IiB3aWR0aD0iNTYiIHg9IjM5MiIgeT0iNDg5Ljc4MTMiLz48dGV4dCBmaWxsPSIjMDAwMDAwIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNCIgbGVuZ3RoQWRqdXN0PSJzcGFjaW5nIiB0ZXh0TGVuZ3RoPSI0MiIgeD0iMzk5IiB5PSI1MTAuMDE1NiI+V3JpdGVyPC90ZXh0Pjxwb2x5Z29uIGZpbGw9IiMxODE4MTgiIHBvaW50cz0iMTEyLDEwNS44OTg0LDEyMiwxMDkuODk4NCwxMTIsMTEzLjg5ODQsMTE2LDEwOS44OTg0IiBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjEuMDsiLz48bGluZSBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjEuMDsiIHgxPSIyMiIgeDI9IjExOCIgeTE9IjEwOS44OTg0IiB5Mj0iMTA5Ljg5ODQiLz48dGV4dCBmaWxsPSIjMDAwMDAwIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMyIgbGVuZ3RoQWRqdXN0PSJzcGFjaW5nIiB0ZXh0TGVuZ3RoPSI3OCIgeD0iMjkiIHk9IjEwNi4yNzM0Ij4mIzI0MzIwOyYjMjI5ODc7JiMzNjcxNjsmIzI1NDQyOyYjMzY4MDc7JiMzMTI0Mzs8L3RleHQ+PHBvbHlnb24gZmlsbD0iIzE4MTgxOCIgcG9pbnRzPSIyNDAsMTMzLjgxMjUsMjUwLDEzNy44MTI1LDI0MCwxNDEuODEyNSwyNDQsMTM3LjgxMjUiIHN0eWxlPSJzdHJva2U6IzE4MTgxODtzdHJva2Utd2lkdGg6MS4wOyIvPjxsaW5lIHN0eWxlPSJzdHJva2U6IzE4MTgxODtzdHJva2Utd2lkdGg6MS4wOyIgeDE9IjEyNCIgeDI9IjI0NiIgeTE9IjEzNy44MTI1IiB5Mj0iMTM3LjgxMjUiLz48dGV4dCBmaWxsPSIjMDAwMDAwIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMyIgbGVuZ3RoQWRqdXN0PSJzcGFjaW5nIiB0ZXh0TGVuZ3RoPSI5OSIgeD0iMTMxIiB5PSIxMzQuMTg3NSI+JiMyNTkxMDsmIzM4NTk4OyYjMjAxMDg7JiMzMjUwMDtDQUQmIzI1OTY4OyYjMjU0NTQ7PC90ZXh0Pjxwb2x5Z29uIGZpbGw9IiMxODE4MTgiIHBvaW50cz0iMTM1LDE2MS43MjY2LDEyNSwxNjUuNzI2NiwxMzUsMTY5LjcyNjYsMTMxLDE2NS43MjY2IiBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjEuMDsiLz48bGluZSBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjEuMDsiIHgxPSIxMjkiIHgyPSIyNTEiIHkxPSIxNjUuNzI2NiIgeTI9IjE2NS43MjY2Ii8+PHRleHQgZmlsbD0iIzAwMDAwMCIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTMiIGxlbmd0aEFkanVzdD0ic3BhY2luZyIgdGV4dExlbmd0aD0iMTA0IiB4PSIxNDEiIHk9IjE2Mi4xMDE2Ij4mIzI5OTgzOyYjMjUxMDQ7JiMxOTk2ODsmIzM4MTkwOyYjMjUxMzA7JiMyNjAyOTsmIzIyMjcwOyYjMjQ0MTg7PC90ZXh0Pjxwb2x5Z29uIGZpbGw9IiMxODE4MTgiIHBvaW50cz0iMTM1LDE4OS42NDA2LDEyNSwxOTMuNjQwNiwxMzUsMTk3LjY0MDYsMTMxLDE5My42NDA2IiBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjEuMDsiLz48bGluZSBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjEuMDsiIHgxPSIxMjkiIHgyPSIyNTEiIHkxPSIxOTMuNjQwNiIgeTI9IjE5My42NDA2Ii8+PHRleHQgZmlsbD0iIzAwMDAwMCIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTMiIGxlbmd0aEFkanVzdD0ic3BhY2luZyIgdGV4dExlbmd0aD0iNzgiIHg9IjE0MSIgeT0iMTkwLjAxNTYiPiYjMjk5ODM7JiMyNTEwNDsmIzIwODU0OyYjMjM0Mjc7JiMyMjI3MDsmIzI0NDE4OzwvdGV4dD48cG9seWdvbiBmaWxsPSIjMTgxODE4IiBwb2ludHM9IjI0MCwyMTcuNTU0NywyNTAsMjIxLjU1NDcsMjQwLDIyNS41NTQ3LDI0NCwyMjEuNTU0NyIgc3R5bGU9InN0cm9rZTojMTgxODE4O3N0cm9rZS13aWR0aDoxLjA7Ii8+PGxpbmUgc3R5bGU9InN0cm9rZTojMTgxODE4O3N0cm9rZS13aWR0aDoxLjA7IiB4MT0iMTI0IiB4Mj0iMjQ2IiB5MT0iMjIxLjU1NDciIHkyPSIyMjEuNTU0NyIvPjx0ZXh0IGZpbGw9IiMwMDAwMDAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjEzIiBsZW5ndGhBZGp1c3Q9InNwYWNpbmciIHRleHRMZW5ndGg9Ijc4IiB4PSIxMzEiIHk9IjIxNy45Mjk3Ij4mIzIyNzg4OyYjMjk3MDI7JiMyMjI3MDsmIzIzNjE4OyYjMjA0NDk7JiMyNDY4Nzs8L3RleHQ+PHBvbHlnb24gZmlsbD0iIzE4MTgxOCIgcG9pbnRzPSI0MDgsMjQ1LjQ2ODgsNDE4LDI0OS40Njg4LDQwOCwyNTMuNDY4OCw0MTIsMjQ5LjQ2ODgiIHN0eWxlPSJzdHJva2U6IzE4MTgxODtzdHJva2Utd2lkdGg6MS4wOyIvPjxsaW5lIHN0eWxlPSJzdHJva2U6IzE4MTgxODtzdHJva2Utd2lkdGg6MS4wOyIgeDE9IjI1MiIgeDI9IjQxNCIgeTE9IjI0OS40Njg4IiB5Mj0iMjQ5LjQ2ODgiLz48dGV4dCBmaWxsPSIjMDAwMDAwIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMyIgbGVuZ3RoQWRqdXN0PSJzcGFjaW5nIiB0ZXh0TGVuZ3RoPSIxNDQiIHg9IjI1OSIgeT0iMjQ1Ljg0MzgiPiYjMzU4NDM7JiMyOTk5MjtXcml0ZXImIzIwODg5OyYjMjA4Mzc7JiMyMjI3MDsmIzIzNjE4OyYjMjU5Njg7JiMyNTQ1NDs8L3RleHQ+PHBvbHlnb24gZmlsbD0iIzE4MTgxOCIgcG9pbnRzPSIyNDAsMjczLjM4MjgsMjUwLDI3Ny4zODI4LDI0MCwyODEuMzgyOCwyNDQsMjc3LjM4MjgiIHN0eWxlPSJzdHJva2U6IzE4MTgxODtzdHJva2Utd2lkdGg6MS4wOyIvPjxsaW5lIHN0eWxlPSJzdHJva2U6IzE4MTgxODtzdHJva2Utd2lkdGg6MS4wOyIgeDE9IjEyNCIgeDI9IjI0NiIgeTE9IjI3Ny4zODI4IiB5Mj0iMjc3LjM4MjgiLz48dGV4dCBmaWxsPSIjMDAwMDAwIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMyIgbGVuZ3RoQWRqdXN0PSJzcGFjaW5nIiB0ZXh0TGVuZ3RoPSI3OCIgeD0iMTMxIiB5PSIyNzMuNzU3OCI+JiMyMjc4ODsmIzI5NzAyOyYjMjE0NDI7JiMyNTk2ODsmIzIwNDQ5OyYjMjQ2ODc7PC90ZXh0Pjxwb2x5Z29uIGZpbGw9IiMxODE4MTgiIHBvaW50cz0iNDA4LDMwMS4yOTY5LDQxOCwzMDUuMjk2OSw0MDgsMzA5LjI5NjksNDEyLDMwNS4yOTY5IiBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjEuMDsiLz48bGluZSBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjEuMDsiIHgxPSIyNTIiIHgyPSI0MTQiIHkxPSIzMDUuMjk2OSIgeTI9IjMwNS4yOTY5Ii8+PHRleHQgZmlsbD0iIzAwMDAwMCIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTMiIGxlbmd0aEFkanVzdD0ic3BhY2luZyIgdGV4dExlbmd0aD0iMTQ0IiB4PSIyNTkiIHk9IjMwMS42NzE5Ij4mIzM1ODQzOyYjMjk5OTI7V3JpdGVyJiMyMDg4OTsmIzIwODM3OyYjMjE0NDI7JiMyNTk2ODsmIzI1OTY4OyYjMjU0NTQ7PC90ZXh0Pjxwb2x5Z29uIGZpbGw9IiMxODE4MTgiIHBvaW50cz0iMjQwLDMyOS4yMTA5LDI1MCwzMzMuMjEwOSwyNDAsMzM3LjIxMDksMjQ0LDMzMy4yMTA5IiBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjEuMDsiLz48bGluZSBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjEuMDsiIHgxPSIxMjQiIHgyPSIyNDYiIHkxPSIzMzMuMjEwOSIgeTI9IjMzMy4yMTA5Ii8+PHRleHQgZmlsbD0iIzAwMDAwMCIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTMiIGxlbmd0aEFkanVzdD0ic3BhY2luZyIgdGV4dExlbmd0aD0iNzgiIHg9IjEzMSIgeT0iMzI5LjU4NTkiPiYjMjk5ODM7JiMyNTEwNDsmIzE5OTc3OyYjMzI1MDA7JiMyNTk2ODsmIzI1NDU0OzwvdGV4dD48cG9seWdvbiBmaWxsPSIjMTgxODE4IiBwb2ludHM9IjQwOCwzNTcuMTI1LDQxOCwzNjEuMTI1LDQwOCwzNjUuMTI1LDQxMiwzNjEuMTI1IiBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjEuMDsiLz48bGluZSBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjEuMDsiIHgxPSIyNTIiIHgyPSI0MTQiIHkxPSIzNjEuMTI1IiB5Mj0iMzYxLjEyNSIvPjx0ZXh0IGZpbGw9IiMwMDAwMDAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjEzIiBsZW5ndGhBZGp1c3Q9InNwYWNpbmciIHRleHRMZW5ndGg9IjEzMCIgeD0iMjU5IiB5PSIzNTcuNSI+JiMyMDg4OTsmIzIwODM3OyYjMTk5Njg7JiMzODE5MDsmIzI1MTMwOyYjMjYwMjk7JiMxOTk3NzsmIzMyNTAwOyYjMjU5Njg7JiMyNTQ1NDs8L3RleHQ+PHBvbHlnb24gZmlsbD0iIzE4MTgxOCIgcG9pbnRzPSI0MDgsMzg1LjAzOTEsNDE4LDM4OS4wMzkxLDQwOCwzOTMuMDM5MSw0MTIsMzg5LjAzOTEiIHN0eWxlPSJzdHJva2U6IzE4MTgxODtzdHJva2Utd2lkdGg6MS4wOyIvPjxsaW5lIHN0eWxlPSJzdHJva2U6IzE4MTgxODtzdHJva2Utd2lkdGg6MS4wOyIgeDE9IjI1MiIgeDI9IjQxNCIgeTE9IjM4OS4wMzkxIiB5Mj0iMzg5LjAzOTEiLz48dGV4dCBmaWxsPSIjMDAwMDAwIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMyIgbGVuZ3RoQWRqdXN0PSJzcGFjaW5nIiB0ZXh0TGVuZ3RoPSIxMzAiIHg9IjI1OSIgeT0iMzg1LjQxNDEiPiYjMjA4ODk7JiMyMDgzNzsmIzIwODU0OyYjMjM0Mjc7JiMyMDk5MjsmIzM2MzM1OyYjMTk5Nzc7JiMzMjUwMDsmIzI1OTY4OyYjMjU0NTQ7PC90ZXh0Pjxwb2x5Z29uIGZpbGw9IiMxODE4MTgiIHBvaW50cz0iNDA4LDQxMi45NTMxLDQxOCw0MTYuOTUzMSw0MDgsNDIwLjk1MzEsNDEyLDQxNi45NTMxIiBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjEuMDsiLz48bGluZSBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjEuMDsiIHgxPSIxMjQiIHgyPSI0MTQiIHkxPSI0MTYuOTUzMSIgeTI9IjQxNi45NTMxIi8+PHRleHQgZmlsbD0iIzAwMDAwMCIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTMiIGxlbmd0aEFkanVzdD0ic3BhY2luZyIgdGV4dExlbmd0aD0iMTA0IiB4PSIxMzEiIHk9IjQxMy4zMjgxIj4mIzIwODg5OyYjMjA4Mzc7JiMyMDg0MDsmIzIzNjE2OyYjMjE0NDI7JiMyNTk2ODsmIzIwNDQ5OyYjMjQ2ODc7PC90ZXh0Pjxwb2x5Z29uIGZpbGw9IiMxODE4MTgiIHBvaW50cz0iMTM1LDQ0MC44NjcyLDEyNSw0NDQuODY3MiwxMzUsNDQ4Ljg2NzIsMTMxLDQ0NC44NjcyIiBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjEuMDsiLz48bGluZSBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjEuMDsiIHgxPSIxMjkiIHgyPSI0MTkiIHkxPSI0NDQuODY3MiIgeTI9IjQ0NC44NjcyIi8+PHRleHQgZmlsbD0iIzAwMDAwMCIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTMiIGxlbmd0aEFkanVzdD0ic3BhY2luZyIgdGV4dExlbmd0aD0iNTIiIHg9IjE0MSIgeT0iNDQxLjI0MjIiPiYjMzI0Njc7JiMyNjQ2MzsmIzIwODg5OyYjMjA4Mzc7PC90ZXh0Pjxwb2x5Z29uIGZpbGw9IiMxODE4MTgiIHBvaW50cz0iMzMsNDY4Ljc4MTMsMjMsNDcyLjc4MTMsMzMsNDc2Ljc4MTMsMjksNDcyLjc4MTMiIHN0eWxlPSJzdHJva2U6IzE4MTgxODtzdHJva2Utd2lkdGg6MS4wOyIvPjxsaW5lIHN0eWxlPSJzdHJva2U6IzE4MTgxODtzdHJva2Utd2lkdGg6MS4wOyIgeDE9IjI3IiB4Mj0iMTIzIiB5MT0iNDcyLjc4MTMiIHkyPSI0NzIuNzgxMyIvPjx0ZXh0IGZpbGw9IiMwMDAwMDAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjEzIiBsZW5ndGhBZGp1c3Q9InNwYWNpbmciIHRleHRMZW5ndGg9IjUyIiB4PSIzOSIgeT0iNDY5LjE1NjMiPiYjMjM0MzY7JiMyNTEwNDsmIzM2NzE2OyYjMjU0NDI7PC90ZXh0PjwhLS1TUkM9W0lxbWtvSXpJMjJyRUJVODIwWDJqZTZrZHU5a09jSFRHYjktU01ib2lPQU5tVDRfM3EtTlRCX1FrVVRReHdDTi16a1Noa2hjRzVHM0xYdkdjZkpoZHZ2TWI1ZTVDaXI5dURjTlJvemJqSnRSckZELXpuVGRIdlRkSzNTendydDZYZ2lBbXZsY0stU3l3OVpwUHFWMW9vaGZkN1FrVUpMbHhURlEtZnRpTjRRVmxRVWtzZi1rUWVKZThFRV9mYWZSZDR6ZjBRWlNzRlRjX3k1ZFpVYW14bWVpb0lyOTFZYnppUTd1LVBHTTQteEhqdmpGTWZIMkRLNHlIUHJLX0kzYXZMZTRyNGNTTEJGbXdXTzZFQXlKWExhNkNIbXZpYVpIMkd4a1p1U05zeklXUXFUbzhlTXQ1cXVxREFBNDFMTzRQZ3hpZEZ2aXg3dzhEdExIbUNXTVFrUXU3dzY1OGtXRzBdLS0+PC9nPjwvc3ZnPg==;" vertex="1" parent="1">
+            <mxGeometry x="840" y="2370" width="730" height="916.52" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
