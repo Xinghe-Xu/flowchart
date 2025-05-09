@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.2">
+  <diagram name="第 1 页" id="ENy3Z2RK6VqIjqDYn7DN">
+    <mxGraphModel dx="1427" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DVP2Ig8tw6q0hrwCIGzc-18" value="&lt;div&gt;&lt;b&gt;Python&lt;/b&gt;&lt;/div&gt;&lt;b&gt;在&lt;/b&gt;&lt;div&gt;&lt;b&gt;线&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;考&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;试&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;系&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;统&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="350" width="60" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="DVP2Ig8tw6q0hrwCIGzc-20" value="前台考试" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="330" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DVP2Ig8tw6q0hrwCIGzc-22" value="后台管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="630" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DVP2Ig8tw6q0hrwCIGzc-23" value="学生管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DVP2Ig8tw6q0hrwCIGzc-24" value="用户管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="490" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DVP2Ig8tw6q0hrwCIGzc-25" value="题库管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="565" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DVP2Ig8tw6q0hrwCIGzc-26" value="试卷管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="630" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DVP2Ig8tw6q0hrwCIGzc-27" value="成绩管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="700" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DVP2Ig8tw6q0hrwCIGzc-28" value="系统信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="780" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DVP2Ig8tw6q0hrwCIGzc-29" value="系统信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DVP2Ig8tw6q0hrwCIGzc-36" value="个人信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="240" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVP2Ig8tw6q0hrwCIGzc-37" value="参加考试" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="280" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVP2Ig8tw6q0hrwCIGzc-38" value="个人成绩" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="320" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVP2Ig8tw6q0hrwCIGzc-39" value="系统首页" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="365" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVP2Ig8tw6q0hrwCIGzc-40" value="退出系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="405" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVP2Ig8tw6q0hrwCIGzc-41" value="添加学生" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="470" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVP2Ig8tw6q0hrwCIGzc-42" value="学生列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="510" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVP2Ig8tw6q0hrwCIGzc-43" value="添加试题" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="550" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVP2Ig8tw6q0hrwCIGzc-44" value="试题列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="590" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
