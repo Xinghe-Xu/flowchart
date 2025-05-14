@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.2">
   <diagram name="第 1 页" id="CE2CT5iLnH_drCqm_u4z">
-    <mxGraphModel dx="5120" dy="2949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2867" dy="1792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -991,6 +991,57 @@
           <mxGeometry x="30" width="290" height="30" as="geometry">
             <mxRectangle width="290" height="30" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="vwsaMsBOUkSa4BkteU4D-275" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vwsaMsBOUkSa4BkteU4D-266" target="vwsaMsBOUkSa4BkteU4D-268">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vwsaMsBOUkSa4BkteU4D-266" value="构造请求，包含题目，答案，提示词等" style="whiteSpace=wrap;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-1360" y="2040" width="92" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="vwsaMsBOUkSa4BkteU4D-274" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vwsaMsBOUkSa4BkteU4D-267" target="vwsaMsBOUkSa4BkteU4D-266">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vwsaMsBOUkSa4BkteU4D-267" value="点击AI智能评分" style="whiteSpace=wrap;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-1360" y="1940" width="92" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="vwsaMsBOUkSa4BkteU4D-278" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vwsaMsBOUkSa4BkteU4D-268" target="vwsaMsBOUkSa4BkteU4D-270">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vwsaMsBOUkSa4BkteU4D-282" value="Http请求&lt;br&gt;DeepSeek服务器" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vwsaMsBOUkSa4BkteU4D-278">
+          <mxGeometry x="-0.0438" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vwsaMsBOUkSa4BkteU4D-268" value="调用DeepSeek的API" style="whiteSpace=wrap;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-1360" y="2140" width="92" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vwsaMsBOUkSa4BkteU4D-279" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vwsaMsBOUkSa4BkteU4D-270" target="vwsaMsBOUkSa4BkteU4D-271">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vwsaMsBOUkSa4BkteU4D-283" value="返回包含评分和反馈" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vwsaMsBOUkSa4BkteU4D-279">
+          <mxGeometry x="-0.2319" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vwsaMsBOUkSa4BkteU4D-270" value="DeepSeek模型推理" style="whiteSpace=wrap;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-1170" y="1940" width="92" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="vwsaMsBOUkSa4BkteU4D-280" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vwsaMsBOUkSa4BkteU4D-271" target="vwsaMsBOUkSa4BkteU4D-272">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vwsaMsBOUkSa4BkteU4D-271" value="解析API返回结果" style="whiteSpace=wrap;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-1170" y="2040" width="92" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="vwsaMsBOUkSa4BkteU4D-281" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vwsaMsBOUkSa4BkteU4D-272" target="vwsaMsBOUkSa4BkteU4D-273">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vwsaMsBOUkSa4BkteU4D-272" value="保存评分结果到数据库" style="whiteSpace=wrap;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-1170" y="2140" width="92" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="vwsaMsBOUkSa4BkteU4D-273" value="前端展示评分和评语" style="whiteSpace=wrap;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-1170" y="2250" width="92" height="54" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
