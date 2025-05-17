@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.5">
   <diagram name="第 1 页" id="CE2CT5iLnH_drCqm_u4z">
-    <mxGraphModel dx="2931" dy="1825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3170" dy="1948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -128,21 +128,6 @@
         <mxCell id="vwsaMsBOUkSa4BkteU4D-22" value="学生" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="601" y="3080" width="110" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-23" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="410" y="3650" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-24" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="560" y="3670" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-25" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="711" y="3690" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-26" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="860" y="3650" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-27" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="920" y="3530" width="120" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="vwsaMsBOUkSa4BkteU4D-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=21;fontStyle=1" parent="1" source="vwsaMsBOUkSa4BkteU4D-29" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="296" y="3050" as="targetPoint" />
@@ -252,330 +237,6 @@
         </mxCell>
         <mxCell id="vwsaMsBOUkSa4BkteU4D-77" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.058;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startFill=0;fontSize=21;fontStyle=1" parent="1" source="vwsaMsBOUkSa4BkteU4D-22" target="vwsaMsBOUkSa4BkteU4D-70" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-179" value="`examTemplate`" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
-          <mxGeometry x="470" y="3610" width="320" height="270" as="geometry" />
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-180" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=1;" parent="vwsaMsBOUkSa4BkteU4D-179" vertex="1">
-          <mxGeometry y="30" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-181" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;fontStyle=1;" parent="vwsaMsBOUkSa4BkteU4D-180" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-182" value="`id` INT  AUTO_INCREMENT COMMENT &#39;编号&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;fontStyle=5;" parent="vwsaMsBOUkSa4BkteU4D-180" vertex="1">
-          <mxGeometry x="30" width="290" height="30" as="geometry">
-            <mxRectangle width="290" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-183" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" parent="vwsaMsBOUkSa4BkteU4D-179" vertex="1">
-          <mxGeometry y="60" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-184" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" parent="vwsaMsBOUkSa4BkteU4D-183" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-185" value="`modelName` VARCHAR(50) NOT NULL COMMENT &#39;名称&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" parent="vwsaMsBOUkSa4BkteU4D-183" vertex="1">
-          <mxGeometry x="30" width="290" height="30" as="geometry">
-            <mxRectangle width="290" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-186" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" parent="vwsaMsBOUkSa4BkteU4D-179" vertex="1">
-          <mxGeometry y="90" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-187" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" parent="vwsaMsBOUkSa4BkteU4D-186" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-188" value="`estimateCount` INT NOT NULL COMMENT &#39;判断题数量&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" parent="vwsaMsBOUkSa4BkteU4D-186" vertex="1">
-          <mxGeometry x="30" width="290" height="30" as="geometry">
-            <mxRectangle width="290" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-189" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" parent="vwsaMsBOUkSa4BkteU4D-179" vertex="1">
-          <mxGeometry y="120" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-190" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" parent="vwsaMsBOUkSa4BkteU4D-189" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-191" value="`estimateScore` DECIMAL(3,1) NOT NULL COMMENT &#39;判断题每题分数&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" parent="vwsaMsBOUkSa4BkteU4D-189" vertex="1">
-          <mxGeometry x="30" width="290" height="30" as="geometry">
-            <mxRectangle width="290" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-192" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" parent="vwsaMsBOUkSa4BkteU4D-179" vertex="1">
-          <mxGeometry y="150" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-193" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" parent="vwsaMsBOUkSa4BkteU4D-192" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-194" value="`choiceCount` INT NOT NULL COMMENT &#39;选择题数量&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" parent="vwsaMsBOUkSa4BkteU4D-192" vertex="1">
-          <mxGeometry x="30" width="290" height="30" as="geometry">
-            <mxRectangle width="290" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-195" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" parent="vwsaMsBOUkSa4BkteU4D-179" vertex="1">
-          <mxGeometry y="180" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-196" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" parent="vwsaMsBOUkSa4BkteU4D-195" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-197" value="`choiceScore` DECIMAL(3,1) NOT NULL COMMENT &#39;选择题每题分数&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" parent="vwsaMsBOUkSa4BkteU4D-195" vertex="1">
-          <mxGeometry x="30" width="290" height="30" as="geometry">
-            <mxRectangle width="290" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-198" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" parent="vwsaMsBOUkSa4BkteU4D-179" vertex="1">
-          <mxGeometry y="210" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-199" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" parent="vwsaMsBOUkSa4BkteU4D-198" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-200" value="`Ext_Fill_Count` INT NOT NULL COMMENT &#39;填空题数量&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" parent="vwsaMsBOUkSa4BkteU4D-198" vertex="1">
-          <mxGeometry x="30" width="290" height="30" as="geometry">
-            <mxRectangle width="290" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-201" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" parent="vwsaMsBOUkSa4BkteU4D-179" vertex="1">
-          <mxGeometry y="240" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-202" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" parent="vwsaMsBOUkSa4BkteU4D-201" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-203" value="`Ext_Fill_Score` DECIMAL(3,1) NOT NULL COMMENT &#39;填空题每题分数&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" parent="vwsaMsBOUkSa4BkteU4D-201" vertex="1">
-          <mxGeometry x="30" width="290" height="30" as="geometry">
-            <mxRectangle width="290" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-204" value="`examContent`" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
-          <mxGeometry x="830" y="3610" width="320" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-205" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" parent="vwsaMsBOUkSa4BkteU4D-204" vertex="1">
-          <mxGeometry y="30" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-206" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" parent="vwsaMsBOUkSa4BkteU4D-205" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-207" value="`paperId` VARCHAR(20) NOT NULL COMMENT &#39;试卷编号 (关联exam表)&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" parent="vwsaMsBOUkSa4BkteU4D-205" vertex="1">
-          <mxGeometry x="30" width="290" height="30" as="geometry">
-            <mxRectangle width="290" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-208" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" parent="vwsaMsBOUkSa4BkteU4D-204" vertex="1">
-          <mxGeometry y="60" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-209" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" parent="vwsaMsBOUkSa4BkteU4D-208" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-210" value="`tkId` INT NOT NULL COMMENT &#39;题目编号 (关联tk表)&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" parent="vwsaMsBOUkSa4BkteU4D-208" vertex="1">
-          <mxGeometry x="30" width="290" height="30" as="geometry">
-            <mxRectangle width="290" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-211" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" parent="vwsaMsBOUkSa4BkteU4D-204" vertex="1">
-          <mxGeometry y="90" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-212" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" parent="vwsaMsBOUkSa4BkteU4D-211" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-213" value="-- 考虑添加外键约束:" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" parent="vwsaMsBOUkSa4BkteU4D-211" vertex="1">
-          <mxGeometry x="30" width="290" height="30" as="geometry">
-            <mxRectangle width="290" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-214" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" parent="vwsaMsBOUkSa4BkteU4D-204" vertex="1">
-          <mxGeometry y="120" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-215" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" parent="vwsaMsBOUkSa4BkteU4D-214" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-216" value="-- FOREIGN KEY (`paperId`) REFERENCES `exam`(`paperId`)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" parent="vwsaMsBOUkSa4BkteU4D-214" vertex="1">
-          <mxGeometry x="30" width="290" height="30" as="geometry">
-            <mxRectangle width="290" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-217" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" parent="vwsaMsBOUkSa4BkteU4D-204" vertex="1">
-          <mxGeometry y="150" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-218" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" parent="vwsaMsBOUkSa4BkteU4D-217" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-219" value="-- FOREIGN KEY (`tkId`) REFERENCES `tk`(`id`)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" parent="vwsaMsBOUkSa4BkteU4D-217" vertex="1">
-          <mxGeometry x="30" width="290" height="30" as="geometry">
-            <mxRectangle width="290" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-220" value="`tk`" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
-          <mxGeometry x="1190" y="3610" width="320" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-221" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=1;" parent="vwsaMsBOUkSa4BkteU4D-220" vertex="1">
-          <mxGeometry y="30" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-222" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;fontStyle=1;" parent="vwsaMsBOUkSa4BkteU4D-221" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-223" value="`id` INT  AUTO_INCREMENT COMMENT &#39;题目编号&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;fontStyle=5;" parent="vwsaMsBOUkSa4BkteU4D-221" vertex="1">
-          <mxGeometry x="30" width="290" height="30" as="geometry">
-            <mxRectangle width="290" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-224" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" parent="vwsaMsBOUkSa4BkteU4D-220" vertex="1">
-          <mxGeometry y="60" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-225" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" parent="vwsaMsBOUkSa4BkteU4D-224" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-226" value="`Type` INT NOT NULL COMMENT &#39;题目类型 (例如: 1-单选, 2-多选, 3-判断, 4-填空, 5-简答)&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" parent="vwsaMsBOUkSa4BkteU4D-224" vertex="1">
-          <mxGeometry x="30" width="290" height="30" as="geometry">
-            <mxRectangle width="290" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-227" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" parent="vwsaMsBOUkSa4BkteU4D-220" vertex="1">
-          <mxGeometry y="90" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-228" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" parent="vwsaMsBOUkSa4BkteU4D-227" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-229" value="`level` INT NOT NULL COMMENT &#39;题目等级 (例如: 1-初级, 2-中级, 3-高级)&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" parent="vwsaMsBOUkSa4BkteU4D-227" vertex="1">
-          <mxGeometry x="30" width="290" height="30" as="geometry">
-            <mxRectangle width="290" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-230" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" parent="vwsaMsBOUkSa4BkteU4D-220" vertex="1">
-          <mxGeometry y="120" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-231" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" parent="vwsaMsBOUkSa4BkteU4D-230" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-232" value="`tkTypeId` INT NOT NULL COMMENT &#39;科目类型ID (关联tkType表)&#39;, -- 原为 tkType" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" parent="vwsaMsBOUkSa4BkteU4D-230" vertex="1">
-          <mxGeometry x="30" width="290" height="30" as="geometry">
-            <mxRectangle width="290" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-233" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" parent="vwsaMsBOUkSa4BkteU4D-220" vertex="1">
-          <mxGeometry y="150" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-234" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" parent="vwsaMsBOUkSa4BkteU4D-233" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-235" value="`question` TEXT NOT NULL COMMENT &#39;题目内容&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" parent="vwsaMsBOUkSa4BkteU4D-233" vertex="1">
-          <mxGeometry x="30" width="290" height="30" as="geometry">
-            <mxRectangle width="290" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-236" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" parent="vwsaMsBOUkSa4BkteU4D-220" vertex="1">
-          <mxGeometry y="180" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-237" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" parent="vwsaMsBOUkSa4BkteU4D-236" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-238" value="`answer` TEXT NOT NULL COMMENT &#39;正确答案&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" parent="vwsaMsBOUkSa4BkteU4D-236" vertex="1">
-          <mxGeometry x="30" width="290" height="30" as="geometry">
-            <mxRectangle width="290" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-239" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" parent="vwsaMsBOUkSa4BkteU4D-220" vertex="1">
-          <mxGeometry y="210" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-240" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" parent="vwsaMsBOUkSa4BkteU4D-239" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-241" value="`date` DATETIME NULL COMMENT &#39;添加题目日期&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" parent="vwsaMsBOUkSa4BkteU4D-239" vertex="1">
-          <mxGeometry x="30" width="290" height="30" as="geometry">
-            <mxRectangle width="290" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-242" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" parent="vwsaMsBOUkSa4BkteU4D-220" vertex="1">
-          <mxGeometry y="240" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-243" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" parent="vwsaMsBOUkSa4BkteU4D-242" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-244" value="-- 考虑添加外键约束:" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" parent="vwsaMsBOUkSa4BkteU4D-242" vertex="1">
-          <mxGeometry x="30" width="290" height="30" as="geometry">
-            <mxRectangle width="290" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-245" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" parent="vwsaMsBOUkSa4BkteU4D-220" vertex="1">
-          <mxGeometry y="270" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-246" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" parent="vwsaMsBOUkSa4BkteU4D-245" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-247" value="-- FOREIGN KEY (`tkTypeId`) REFERENCES `tkType`(`id`)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" parent="vwsaMsBOUkSa4BkteU4D-245" vertex="1">
-          <mxGeometry x="30" width="290" height="30" as="geometry">
-            <mxRectangle width="290" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-248" value="`tkType`" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
-          <mxGeometry x="1550" y="3610" width="320" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-249" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=1;" parent="vwsaMsBOUkSa4BkteU4D-248" vertex="1">
-          <mxGeometry y="30" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-250" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;fontStyle=1;" parent="vwsaMsBOUkSa4BkteU4D-249" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-251" value="`id` INT  AUTO_INCREMENT COMMENT &#39;类型编号&#39;, -- 原描述为“试卷id”，应为类型表自身的ID，通常自增" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;fontStyle=5;" parent="vwsaMsBOUkSa4BkteU4D-249" vertex="1">
-          <mxGeometry x="30" width="290" height="30" as="geometry">
-            <mxRectangle width="290" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-252" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" parent="vwsaMsBOUkSa4BkteU4D-248" vertex="1">
-          <mxGeometry y="60" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-253" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" parent="vwsaMsBOUkSa4BkteU4D-252" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vwsaMsBOUkSa4BkteU4D-254" value="`typeName` VARCHAR(50) NOT NULL COMMENT &#39;题目类型名称&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" parent="vwsaMsBOUkSa4BkteU4D-252" vertex="1">
-          <mxGeometry x="30" width="290" height="30" as="geometry">
-            <mxRectangle width="290" height="30" as="alternateBounds" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="vwsaMsBOUkSa4BkteU4D-275" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vwsaMsBOUkSa4BkteU4D-266" target="vwsaMsBOUkSa4BkteU4D-268" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -854,7 +515,7 @@
           <mxGeometry x="-655" y="3752" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8oEuD8XrKy1Gy4Cr_Dqx-94" value="&lt;font face=&quot;宋体&quot;&gt;开始&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1100" y="4006" width="90" height="40" as="geometry" />
+          <mxGeometry x="-1193" y="4440" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8oEuD8XrKy1Gy4Cr_Dqx-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=宋体;" edge="1" parent="1" source="8oEuD8XrKy1Gy4Cr_Dqx-95" target="8oEuD8XrKy1Gy4Cr_Dqx-106">
           <mxGeometry relative="1" as="geometry" />
@@ -863,7 +524,7 @@
           <mxGeometry x="-800" y="4080" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8oEuD8XrKy1Gy4Cr_Dqx-96" value="验证信息&lt;div&gt;是否正确&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=宋体;" vertex="1" parent="1">
-          <mxGeometry x="-1100" y="4156" width="100" height="80" as="geometry" />
+          <mxGeometry x="-1193" y="4590" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8oEuD8XrKy1Gy4Cr_Dqx-97" value="高亮错误字段&lt;div&gt;并提示&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;" vertex="1" parent="1">
           <mxGeometry x="-788.5" y="4286" width="97" height="40" as="geometry" />
@@ -912,7 +573,7 @@
           <mxGeometry x="-788.5" y="4149" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8oEuD8XrKy1Gy4Cr_Dqx-107" value="错误信息" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;" vertex="1" parent="1">
-          <mxGeometry x="-1107" y="4080" width="97" height="40" as="geometry" />
+          <mxGeometry x="-1200" y="4514" width="97" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8oEuD8XrKy1Gy4Cr_Dqx-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=宋体;" edge="1" parent="1" source="8oEuD8XrKy1Gy4Cr_Dqx-108" target="8oEuD8XrKy1Gy4Cr_Dqx-110">
           <mxGeometry relative="1" as="geometry" />
