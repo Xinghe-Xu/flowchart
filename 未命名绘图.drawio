@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
   <diagram name="第 1 页" id="CE2CT5iLnH_drCqm_u4z">
-    <mxGraphModel dx="3676" dy="1095" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4687" dy="1643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -123,6 +123,11 @@
         <mxCell id="CCAY15DxKrRto8mMYE2--29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;fontFamily=宋体;fontStyle=0" edge="1" parent="1" source="vwsaMsBOUkSa4BkteU4D-22" target="vwsaMsBOUkSa4BkteU4D-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="CCAY15DxKrRto8mMYE2--34" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="CCAY15DxKrRto8mMYE2--29">
+          <mxGeometry x="-0.0928" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="vwsaMsBOUkSa4BkteU4D-22" value="学生" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;fontStyle=0;fontFamily=宋体;" parent="1" vertex="1">
           <mxGeometry x="636" y="3106" width="110" height="70" as="geometry" />
         </mxCell>
@@ -134,9 +139,19 @@
         <mxCell id="vwsaMsBOUkSa4BkteU4D-59" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;startFill=0;fontSize=21;fontStyle=0;fontFamily=宋体;" parent="1" source="vwsaMsBOUkSa4BkteU4D-29" target="vwsaMsBOUkSa4BkteU4D-58" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="CCAY15DxKrRto8mMYE2--36" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="vwsaMsBOUkSa4BkteU4D-59">
+          <mxGeometry x="0.0673" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="CCAY15DxKrRto8mMYE2--28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;startFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=宋体;fontStyle=0" edge="1" parent="1" source="vwsaMsBOUkSa4BkteU4D-29" target="vwsaMsBOUkSa4BkteU4D-61">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="410" y="3060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CCAY15DxKrRto8mMYE2--32" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="CCAY15DxKrRto8mMYE2--28">
+          <mxGeometry x="-0.0562" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vwsaMsBOUkSa4BkteU4D-29" value="管理员" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;fontStyle=0;fontFamily=宋体;" parent="1" vertex="1">
@@ -184,14 +199,29 @@
         <mxCell id="vwsaMsBOUkSa4BkteU4D-60" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;startFill=0;fontSize=21;fontStyle=0;fontFamily=宋体;" parent="1" source="vwsaMsBOUkSa4BkteU4D-58" target="vwsaMsBOUkSa4BkteU4D-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="CCAY15DxKrRto8mMYE2--37" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="vwsaMsBOUkSa4BkteU4D-60">
+          <mxGeometry x="0.1078" y="6" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="vwsaMsBOUkSa4BkteU4D-63" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;fontSize=21;fontStyle=0;fontFamily=宋体;" parent="1" source="vwsaMsBOUkSa4BkteU4D-43" target="vwsaMsBOUkSa4BkteU4D-62" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CCAY15DxKrRto8mMYE2--35" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="vwsaMsBOUkSa4BkteU4D-63">
+          <mxGeometry x="-0.077" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="vwsaMsBOUkSa4BkteU4D-58" value="管理" style="rhombus;whiteSpace=wrap;html=1;fontSize=21;fontStyle=0;fontFamily=宋体;" parent="1" vertex="1">
           <mxGeometry x="222" y="3120" width="121" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CCAY15DxKrRto8mMYE2--31" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=宋体;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;fontStyle=0" edge="1" parent="1" source="vwsaMsBOUkSa4BkteU4D-61" target="vwsaMsBOUkSa4BkteU4D-22">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CCAY15DxKrRto8mMYE2--33" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="CCAY15DxKrRto8mMYE2--31">
+          <mxGeometry x="-0.0476" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="vwsaMsBOUkSa4BkteU4D-61" value="管理" style="rhombus;whiteSpace=wrap;html=1;fontSize=21;fontStyle=0;fontFamily=宋体;" parent="1" vertex="1">
           <mxGeometry x="424" y="3000" width="121" height="80" as="geometry" />
